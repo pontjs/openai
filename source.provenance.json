@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "metadata": {
     "repository": "https://github.com/pontjs/pontx-api-metadata",
-    "commit": "d6a06b8e1cb0f0e6e476046120450cd8d71f7f37",
+    "commit": "3a415bf4358cf353176b82aa4171eede3a4d41f7",
     "specPath": "products/openai/spec.pontx.json",
     "sha256": "04c80d8add695737f0ec0849091858c2337a354cea381a7b8bf44465987fbbd6"
   },
