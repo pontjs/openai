@@ -1,0 +1,28 @@
+{
+  "formatVersion": 1,
+  "metadata": {
+    "repository": "https://github.com/pontjs/pontx-api-metadata",
+    "commit": "d6a06b8e1cb0f0e6e476046120450cd8d71f7f37",
+    "specPath": "products/openai/spec.pontx.json",
+    "sha256": "04c80d8add695737f0ec0849091858c2337a354cea381a7b8bf44465987fbbd6"
+  },
+  "upstream": {
+    "repository": "https://github.com/openai/openai-openapi",
+    "revision": "2186421dca0cca7c1e67caa7739005e8b1ccc4dd",
+    "openApiPath": "openapi.json",
+    "openApiSha256": "542299d304cdeb78deff4172b3790d52c7e7e75fb2b517e9c2787c52f1424acc",
+    "license": "MIT"
+  },
+  "derivation": {
+    "endpoints": 288,
+    "schemas": 1421,
+    "sourceFree": true,
+    "method": "The SDK contains the raw bytes of the product-owned PontxSpec only. It does not vendor the supplier OpenAPI document.",
+    "identifierNormalization": "110 official dashed operationIds and 6 dashed Schema names were normalized to valid camelCase identifiers in the canonical PontxSpec (matching OpenAI's own official SDK naming); all $ref pointers were rewritten deterministically."
+  },
+  "execution": {
+    "hubProxyEnabled": false,
+    "credentialBoundary": "OpenAI API keys (and admin API keys where required) remain caller-local; they are read only from options or environment variables and never exposed through previews, errors, or logs.",
+    "mutationPolicy": "The generated CLI requires a redacted dry-run and an exact request-bound --confirm token for POST and DELETE calls."
+  }
+}

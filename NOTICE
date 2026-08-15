@@ -1,0 +1,7 @@
+@pontx/openai is generated from the product-owned OpenAI API PontxSpec
+identified in source.provenance.json. The npm package does not redistribute
+the upstream OpenAPI document.
+
+The imported OpenAPI source is MIT licensed by OpenAI. OpenAI Platform service
+use, website content, and trademarks are governed separately by their
+respective terms. This independently branded SDK is not endorsed by OpenAI.
