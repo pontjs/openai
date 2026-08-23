@@ -1,5 +1,7 @@
 # @pontx/openai
 
+[Pontx Hub SDK guide](https://pontx.dev/en/sdks/openai)
+
 Type-safe OpenAI API SDK and CLI generated from the exact product-owned
 PontxSpec metadata commit. It covers the complete 288 Endpoint contract
 (including typed SSE streaming surfaces) and makes caller-directed requests

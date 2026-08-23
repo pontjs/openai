@@ -29,7 +29,7 @@ try {
   await execFileAsync("npm", ["install", "--no-package-lock", tarball], { cwd: temporary, maxBuffer: 30 * 1024 * 1024 });
   const installedPackage = JSON.parse(await readFile(join(temporary, "node_modules/@pontx/openai/package.json"), "utf8"));
   assert.equal(installedPackage.name, "@pontx/openai");
-  assert.equal(installedPackage.version, "0.1.0");
+  assert.equal(installedPackage.version, "0.1.1");
 
   await execFileAsync(process.execPath, ["--input-type=module", "--eval", [
     "import('@pontx/openai').then((sdk) => {",
