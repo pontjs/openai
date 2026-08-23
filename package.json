@@ -1,6 +1,6 @@
 {
   "name": "@pontx/openai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "packageManager": "pnpm@10.14.0",
   "description": "Type-safe OpenAI API SDK and CLI generated from the product-owned PontxSpec",
@@ -50,6 +50,7 @@
   ],
   "author": "Pontx Contributors",
   "license": "MIT",
+  "homepage": "https://pontx.dev/en/sdks/openai",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pontjs/openai.git"
